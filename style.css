@@ -74,14 +74,33 @@ img {
 
 @media (max-width:420px) {
   .row {
-    max-width: 420px;
+    width: 100vw;
+    margin: 20px 0px;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 80vw;
     float: none;
-    margin: auto;
+    margin: 20px auto;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 80vw;
+  margin: 20px auto;
+  }
+
+  img {
+    height: 30vw;
+    margin: 20px auto;
+  }
+
+  .container.grey {
+    width: 100vw;
+    margin: 0;
   }
 
 }
